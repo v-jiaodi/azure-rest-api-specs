@@ -27,10 +27,11 @@ options:
     examples-directory: examples
   "@azure-tools/typespec-ts":
     package-dir: "schema-registry"
+    emitter-output-dir: "{js-sdk-folder}/sdk/{service-directory-name}/schema-registry"
     generateMetadata: false
     generateTest: false
     packageDetails:
-      name: "@azure-rest/schema-registry"
+      name: "@azure/schema-registry"
   # SDK azure-sdk-for-net-track2 - CI check failing due to: https://github.com/Azure/azure-sdk-for-net/issues/41746
   "@azure-tools/typespec-csharp":
     package-dir: "Azure.Data.SchemaRegistry"
