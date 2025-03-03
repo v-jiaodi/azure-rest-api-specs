@@ -35,7 +35,7 @@ options:
     experimentalExtensibleEnums: true
     flavor: azure
     generateMetadata: true
-    hierarchyClient: false
+    hierarchyClient: true
     isModularLibrary: true
     package-dir: "arm-databasewatcher"
     packageDetails:
